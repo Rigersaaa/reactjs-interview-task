@@ -200,5 +200,11 @@ textarea {
 .app-sidebar-notes {
   flex-grow: 1; /* Added to make notes section fill remaining vertical space */
   overflow-y: auto; /* Changed to auto to show scrollbar only when necessary */
+  
 }
+
+.search-container {
+  margin-bottom: 20px; /* Adjust the margin-bottom value to add space */
+}
+
 
