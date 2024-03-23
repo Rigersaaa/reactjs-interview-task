@@ -16,8 +16,10 @@ const Sidebar = ({
   return (
     <div className="app-sidebar">
       <div className="app-sidebar-header">
-        <h1>Notes</h1>
-        <button onClick={onAddNote}>Add</button>
+        <div className="category-container">
+          <h1 className="category-title">Create new category</h1>
+          <button className="add-category-button" onClick={onAddNote}>Add</button>
+        </div>
       </div>
       <div className="search-container">
         <input

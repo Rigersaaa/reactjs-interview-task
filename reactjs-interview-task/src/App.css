@@ -207,4 +207,34 @@ textarea {
   margin-bottom: 20px; /* Adjust the margin-bottom value to add space */
 }
 
+.category-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: green; /* Change to the desired background color */
+  padding: 10px;
+}
 
+.category-title {
+  color: white; /* Change to the desired text color */
+  margin: 0;
+  flex: 1; /* This will make the title take up the available space */
+  font-size: 16px; /* Adjust the font size as needed */
+}
+
+.add-category-button {
+  background-color: white; /* Change to the desired background color */
+  color: green; /* Change to the desired text color */
+  border: none;
+  padding: 8px 16px;
+  cursor: pointer;
+  font-size: 16px; /* Adjust the font size as needed */
+}
+
+#root > div > div.app-sidebar > div.app-sidebar-header > div > button {
+  margin-left: 100px;
+}
+
+#root > div > div.app-sidebar > div.search-container > input[type=text] {
+  padding-left: 189px;
+}
